@@ -15,14 +15,20 @@ A plugin of skills plus an always-on rule that make AI coding agents (GitHub Cop
 
 ## Install
 
+**Recommended (skills + always-on rule):**
 ```bash
-# Skills
-cp -R skills/* ~/.copilot/skills/
-# Always-on rule
-cp rules/software-quality.instructions.md ~/.copilot/instructions/
+git clone https://github.com/AlexAlvarez092/software-quality.git
+cd software-quality && ./install.sh            # user-level (~/.copilot)
+./install.sh --project                          # rule into ./.github/instructions of the current repo
 ```
 
-Or install as a plugin from this repository with your agent's plugin command (manifest: `.claude-plugin/plugin.json`).
+**Plugin only (skills, no rule):**
+```bash
+copilot plugin install AlexAlvarez092/software-quality
+```
+Plugins may not carry instruction files, so copy `rules/software-quality.instructions.md` to `~/.copilot/instructions/` (or a project's `.github/instructions/`) yourself.
+
+Restart the CLI afterwards so the skills and rule are loaded.
 
 ## Sources
 
