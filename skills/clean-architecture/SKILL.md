@@ -54,4 +54,4 @@ Python/Java equivalent: `domain/`, `application/` (use cases + ports as `Protoco
 ## Don't over-engineer
 For scripts, prototypes or trivial CRUD, the cost of layers can exceed the benefit. Apply the depth of layering to the business-logic complexity and expected lifetime of the project (KISS/YAGNI — see `simple-design`).
 
-Related: `solid-principles` (DIP), `grasp-and-lod`.
+Related: `solid-principles` (DIP), `grasp-and-lod`, `component-cohesion`, `component-coupling`.

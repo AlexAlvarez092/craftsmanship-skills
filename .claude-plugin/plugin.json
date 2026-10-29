@@ -1,6 +1,6 @@
 {
   "name": "software-quality",
-  "description": "Skills and an always-on rule that make AI coding agents apply software design principles: SOLID, DRY/KISS/YAGNI, GRASP, Law of Demeter and Clean Architecture.",
+  "description": "Skills and an always-on rule that make AI coding agents apply software design principles: SOLID, DRY/KISS/YAGNI, GRASP, Law of Demeter, Clean Architecture and component cohesion (REP, CCP, CRP) and coupling (ADP, SDP, SAP).",
   "version": "0.1.0",
   "author": {
     "name": "AlexAlvarez092",
@@ -8,5 +8,5 @@
   },
   "repository": "https://github.com/AlexAlvarez092/software-quality",
   "license": "MIT",
-  "keywords": ["solid", "clean-architecture", "dry", "kiss", "yagni", "grasp", "design-principles", "code-quality"]
+  "keywords": ["solid", "clean-architecture", "dry", "kiss", "yagni", "grasp", "cohesion", "ccp", "crp", "rep", "coupling", "adp", "sdp", "sap", "design-principles", "code-quality"]
 }

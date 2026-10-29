@@ -50,4 +50,4 @@ Caveats: fluent builders and plain data structures (DTOs, records) don't violate
 4. Keep controllers/handlers thin; orchestration lives in use cases, rules in domain objects.
 5. Replace growing type conditionals with polymorphism (see `solid-principles` OCP).
 
-Related: `solid-principles`, `clean-architecture`.
+Related: `solid-principles`, `clean-architecture`, `component-cohesion`.

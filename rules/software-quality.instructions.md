@@ -9,6 +9,8 @@ When designing, writing, refactoring or reviewing code, apply these principles w
 - **Design/new class, module, service:** consult skill `solid-principles`.
 - **Duplication, new abstraction, config or "future" features:** consult skill `simple-design` (DRY, KISS, YAGNI).
 - **Deciding where logic belongs, or long call chains:** consult skill `grasp-and-lod`.
+- **Grouping classes into packages/modules/libraries, splitting or merging modules:** consult skill `component-cohesion` (REP, CCP, CRP).
+- **Dependencies between packages/modules, circular imports, dependency direction:** consult skill `component-coupling` (ADP, SDP, SAP).
 - **New feature/service structure, persistence, integrations, layering:** consult skill `clean-architecture`.
 
 Non-negotiables:
